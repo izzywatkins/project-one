@@ -2,7 +2,33 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
+  section {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  #one {
+    background-color: FFEFEF;
+  }
+
+  #two {
+    background-color: rgb(198, 216, 191);
+  }
+
+  #three {
+    background-color: rgb(191, 216, 242);
+  }
+
+  #four {
+    background-color: rgb(231, 182, 182);
+  }
+
 body {
+    margin: 0;
     background-color: lavenderblush;
 }
 
