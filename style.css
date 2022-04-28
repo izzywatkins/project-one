@@ -1,12 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: lavenderblush;
 }
 
+nav {
+    display: flex;
+}
+
+nav div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px rgb(255, 7, 7) solid;
+}
+
+.navigation-one {
+    flex: 1;
+    order: 2;
+}
+
+.navigation-two {
+    flex: 1;
+    order: 2;
+}
+
+.navigation-three {
+    flex: 1;
+    order: 3;
+}
+
 h1 {
     margin: auto;
-    font-family: 'Cinzel Decorative', cursive;
     font-size: 100px;
     color: rgb(196, 21, 56);
+}
+
+h2 {
+    font-family: 'Sporting Grotesque_Bold';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 150px;
+    justify-content: center;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+.links {
+    text-decoration: none;
+    border-bottom: none;
 }
 
 p {
