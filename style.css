@@ -96,14 +96,16 @@ h1 {
     font-family: 'Sporting Grotesque';
     font-weight: bold;
     font-style: normal;
-    margin-top: 10px;
+    margin-top: 100px;
     text-align: center;
     font-size: 160px;
     color: rgb(196, 21, 56);
 }
 
 h2 {
-    font-weight: normal;
+    text-align: center;
+    font-family: 'Sporting Grotesque';
+    font-weight: bold;
     font-style: normal;
     font-size: 150px;
     justify-content: center;
@@ -114,8 +116,32 @@ h4 {
 }
 
 .links {
+    font-family: 'Sporting Grotesque';
+    font-weight: normal;
+    font-style: normal;
     text-decoration: none;
     border-bottom: none;
+}
+
+.links-pom, .links-blueberry, .links-lime {
+    color: black;
+    font-family: 'Sporting Grotesque';
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    border-bottom: none;
+}
+
+.links-pom:hover {
+    color: rgb(196, 21, 56);
+}
+
+.links-blueberry:hover {
+    color: rgb(39, 37, 203);
+}
+
+.links-lime:hover {
+    color:rgb(107, 242, 100)
 }
 
 .photo {
