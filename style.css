@@ -109,6 +109,7 @@ p {
 }
 
 .container-one-box-one {
+    margin-left: 70px;
     order: 1;
     border: 2px solid red;
 }
@@ -125,6 +126,7 @@ p {
 }
 
 .container-two-box-one {
+    margin-left: 70px;
     order: 1;
 }
 
@@ -136,10 +138,10 @@ p {
 .container-three {
     display: flex;
     order: 1;
-    border: 2px solid red;
 }
 
 .container-three-box-one {
+    margin-left: 70px;
     order: 1;
 }
 
