@@ -1,3 +1,21 @@
+@font-face {
+    font-family: 'Sporting Grotesque';
+    src: url('SportingGrotesque-Regular.woff2') format('woff2'),
+        url('SportingGrotesque-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sporting Grotesque';
+    src: url('SportingGrotesque-Bold.woff2') format('woff2'),
+        url('SportingGrotesque-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -71,9 +89,12 @@ nav div {
 }
 
 h1 {
+    font-family: 'Sporting Grotesque';
+    font-weight: bold;
+    font-style: normal;
     margin-top: 10px;
     text-align: center;
-    font-size: 220px;
+    font-size: 160px;
     color: rgb(196, 21, 56);
 }
 
@@ -104,7 +125,10 @@ h4 {
 }
 
 p {
-    font-size: 80px;
+    font-family: 'Sporting Grotesque';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 65px;
     color: rgb(196, 21, 56);
 }
 
