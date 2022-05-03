@@ -74,7 +74,7 @@ nav div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 2px rgb(255, 7, 7) solid;
+   /* border: 2px rgb(255, 7, 7) solid; */
 }
 
 .navigation-one {
