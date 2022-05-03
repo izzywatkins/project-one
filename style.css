@@ -71,8 +71,9 @@ nav div {
 }
 
 h1 {
-    margin: auto;
-    font-size: 250px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 220px;
     color: rgb(196, 21, 56);
 }
 
@@ -96,8 +97,14 @@ h4 {
     width: 500px;
 }
 
+.graphic-pom {
+    width: 800px;
+    margin-left: 700px;
+    margin-top: 50px;
+}
+
 p {
-    font-size: 50px;
+    font-size: 80px;
     color: rgb(196, 21, 56);
 }
 
@@ -146,6 +153,21 @@ p {
 }
 
 .container-three-box-two {
+    order: 2;
+    margin-left: 40px;
+}
+
+.container-four {
+    display: flex;
+    order: 1;
+}
+
+.container-four-box-one {
+    margin-left: 70px;
+    order: 1;
+}
+
+.container-four-box-two {
     order: 2;
     margin-left: 40px;
 }
