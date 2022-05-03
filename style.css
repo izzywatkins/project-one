@@ -154,6 +154,11 @@ h4 {
     margin-top: 50px;
 }
 
+.graphic-pom-end {
+    max-width: 800px;
+    margin-left: 390px;
+}
+
 p {
     font-family: 'Sporting Grotesque';
     font-weight: normal;
