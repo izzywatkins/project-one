@@ -16,7 +16,7 @@ html {
   }
 
   #two {
-    background-color: FFEFEF;
+    background-color:aquamarine
   }
 
   #three {
@@ -33,6 +33,10 @@ html {
 
   #six {
       background-color: darkgreen;
+  }
+
+  #seven {
+    background-color: FFEFEF;
   }
 
 body {
@@ -94,12 +98,11 @@ h4 {
 
 p {
     font-size: 50px;
-    font-family: 'Cinzel Decorative', cursive;
     color: rgb(196, 21, 56);
 }
 
 .container-one {
-    margin-top: 90px;
+    margin-top: 160px;
     display: flex;
     order: 1;
     border: 2px solid red;

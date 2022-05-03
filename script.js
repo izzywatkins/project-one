@@ -27,6 +27,11 @@
     element.scrollIntoView()
   }, 10000)
 
+  setTimeout(function () {
+    element = document.getElementById('seven')
+    element.scrollIntoView()
+  }, 12000)
+
   //})
   //  var container = $('section')
   
