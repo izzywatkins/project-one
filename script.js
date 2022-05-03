@@ -1,5 +1,6 @@
 //document.getElementById('one').scrollTo({ behavior: 'smooth', top: 0 })
 //$('#go').click(function () {
+
   setTimeout(function () {
     element = document.getElementById('two')
     element.scrollIntoView()
@@ -15,6 +16,17 @@
     element = document.getElementById('four')
     element.scrollIntoView()
   }, 6000)
+
+  setTimeout(function () {
+    element = document.getElementById('five')
+    element.scrollIntoView()
+  }, 8000)
+
+  setTimeout(function () {
+    element = document.getElementById('six')
+    element.scrollIntoView()
+  }, 10000)
+
   //})
   //  var container = $('section')
   
