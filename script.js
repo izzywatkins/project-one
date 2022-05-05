@@ -4,38 +4,38 @@
   setTimeout(function () {
     element = document.getElementById('two')
     element.scrollIntoView()
-  }, 2000)
+  }, 4000)
   
   
   setTimeout(function () {
     element = document.getElementById('three')
     element.scrollIntoView()
-  }, 4000)
+  }, 8000)
   
   setTimeout(function () {
     element = document.getElementById('four')
     element.scrollIntoView()
-  }, 6000)
+  }, 12000)
 
   setTimeout(function () {
     element = document.getElementById('five')
     element.scrollIntoView()
-  }, 8000)
+  }, 16000)
 
   setTimeout(function () {
     element = document.getElementById('six')
     element.scrollIntoView()
-  }, 10000)
+  }, 20000)
 
   setTimeout(function () {
     element = document.getElementById('seven')
     element.scrollIntoView()
-  }, 12000)
+  }, 24000)
 
   setTimeout(function () {
     element = document.getElementById('eight')
     element.scrollIntoView()
-  }, 14000)
+  }, 28000)
 
   //})
   //  var container = $('section')
