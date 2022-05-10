@@ -168,6 +168,7 @@ p {
 }
 
 .container-one {
+    offset-position: 100px 0;
     display: flex;
     order: 1;
     border: 2px solid red;
