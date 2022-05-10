@@ -4,13 +4,13 @@
   setTimeout(function () {
     element = document.getElementById('two')
     element.scrollIntoView()
-  }, 4000)
+  }, 6000)
   
   
   setTimeout(function () {
     element = document.getElementById('three')
     element.scrollIntoView()
-  }, 8000)
+  }, 10000)
   
   setTimeout(function () {
     element = document.getElementById('four')
@@ -40,3 +40,9 @@
   $( function() {
     $( "#draggable" ).draggable();
   } );
+
+  $(window).scroll(function() {
+    $('html, body').animate({
+        scrollTop: $("#myDiv").offset().top
+    }, 2000);
+});
