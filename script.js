@@ -37,33 +37,6 @@
     element.scrollIntoView()
   }, 28000)
 
-  //})
-  //  var container = $('section')
-  
-  //  // Scrolls to paragraph 1
-  //  function scrollSection2() {
-  //    var scrollTo = $('#two')
-  
-  //    // Calculating new position
-  //    // of scrollbar
-  //    var position = scrollTo.offset().top - container.offset().top + container.scrollTop()
-  
-  //    // Animating scrolling effect
-  //    container.animate({
-  //      scrollTop: position
-  //    })
-  //  }
-  
-  //  // Scrolls to paragraph 2
-  //  function scrollSection3() {
-  //    var scrollTo = $('#three')
-  
-  //    // Calculating new position
-  //    // of scrollbar
-  //    var position = scrollTo.offset().top - container.offset().top + container.scrollTop()
-  
-  //    // Animating scrolling effect
-  //    container.animate({
-  //      scrollTop: position
-  //    })
-  //  }
+  $( function() {
+    $( "#draggable" ).draggable();
+  } );

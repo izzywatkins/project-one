@@ -24,41 +24,62 @@ html {
     scroll-behavior: smooth;
   }
 
-  section {
+section {
     height: 100vh;
     width: 100vw;
-  }
+}
 
   #one {
-    background-color: FFEFEF;
+    background-color: #FFEFEF;
   }
 
   #two {
-    background-color:aquamarine
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFEFEF;
   }
 
   #three {
-    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFEFEF;
   }
 
   #four {
-    background-color: rgb(148, 29, 29);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFEFEF;
   }
 
   #five {
-    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFEFEF;
   }
 
   #six {
-      background-color: darkgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFEFEF;
   }
 
   #seven {
-    background-color: FFEFEF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFEFEF;
   }
 
   #eight {
-      background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFEFEF;
   }
 
 body {
@@ -159,6 +180,10 @@ h4 {
     margin-left: 390px;
 }
 
+#draggable {
+    padding: .5px;
+}
+
 p {
     font-family: 'Sporting Grotesque';
     font-weight: normal;
@@ -171,13 +196,13 @@ p {
     offset-position: 100px 0;
     display: flex;
     order: 1;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .container-one-box-one {
     margin-left: 70px;
     order: 1;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .container-one-box-two {
@@ -188,7 +213,7 @@ p {
 .container-two {
     display: flex;
     order: 1;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .container-two-box-one {
