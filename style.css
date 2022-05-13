@@ -308,3 +308,88 @@ p {
     order: 2;
     margin-left: 40px;
 }
+
+.animated { 
+    -webkit-animation-duration: 1s; 
+    animation-duration: 1s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+} 
+
+.bounceInLeft {
+    width: 500px;
+}
+
+@keyframes bounceInLeft { 
+    0% { 
+        opacity: 0; 
+        
+        transform: translateX(-400px); 
+    } 
+    60% { 
+       
+        transform: translateX(30px); 
+    } 
+    80% { 
+        transform: translateX(-10px); 
+    } 
+    100% {
+        opacity: 1;
+         
+        transform: translateX(0); 
+    } 
+} 
+
+.bounceInLeft.go { 
+    -webkit-animation-name: bounceInLeft; 
+    animation-name: bounceInLeft; 
+}
+
+@-webkit-keyframes bounceInUp { 
+    0% { 
+        opacity: 0; 
+        
+        -webkit-transform: translateY(400px); 
+    } 
+    60% { 
+       
+        -webkit-transform: translateY(-30px); 
+    } 
+    80% { 
+        -webkit-transform: translateY(10px); 
+    } 
+    100% {
+        opacity: 1;
+         
+        -webkit-transform: translateY(0); 
+    } 
+} 
+
+@keyframes bounceInUp { 
+    0% { 
+        opacity: 0; 
+        
+        transform: translateY(400px); 
+    } 
+    60% { 
+       
+        transform: translateY(-30px); 
+    } 
+    80% { 
+        transform: translateY(10px); 
+    } 
+    100% {
+        opacity: 1;
+         
+        transform: translateY(0); 
+    } 
+} 
+
+.bounceInUp.go { 
+    -webkit-animation-name: bounceInUp; 
+    animation-name: bounceInUp; 
+}
+
+.bounceInUp {
+    width: 500px;
+}
