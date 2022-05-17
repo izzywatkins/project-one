@@ -9,12 +9,21 @@
     <link rel="preload" href="SportingGrotesque-Regular.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="SportingGrotesque-Bold.woff2" as="font" type="font/woff2" crossorigin>
 </head>
-<body>
+<body class=“pomegranate-page”>
      <section id="one">
-      <div id="draggable" class="draggable-header">
-        <h1>Life of a Pomegranate</h1>
+      <div class="animatedParent" data-sequence="500">
+        <h1 class="animated bounceInDown" data-id="1">Life of a Pomegranate</h1>
       </div>
-      <a class="button-pom" href="#two">get started!</a>
+      <?xml version="1.0" encoding="UTF-8"?>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 841 22.72">
+        <g id="Layer_1" data-name="Layer 1"/>
+        <g id="Layer_2" data-name="Layer 2">
+          <g id="Layer_1-2" data-name="Layer 1">
+            <path class="pom-line" d="M2,2c14.95,0,14.95,18.72,29.89,18.72S46.83,2,61.78,2s14.94,18.72,29.89,18.72S106.61,2,121.56,2s14.94,18.72,29.89,18.72,14.95-18.72,29.89-18.72,14.95,18.72,29.89,18.72,14.95-18.72,29.89-18.72,14.94,18.72,29.89,18.72,14.94-18.72,29.89-18.72,14.95,18.72,29.89,18.72,14.95-18.72,29.89-18.72,14.95,18.72,29.89,18.72,14.95-18.72,29.89-18.72,14.95,18.72,29.89,18.72,14.95-18.72,29.89-18.72,14.95,18.72,29.89,18.72,14.95-18.72,29.89-18.72,14.95,18.72,29.9,18.72,14.94-18.72,29.89-18.72,14.95,18.72,29.89,18.72,14.95-18.72,29.89-18.72,14.95,18.72,29.9,18.72,14.95-18.72,29.9-18.72,14.95,18.72,29.9,18.72,14.95-18.72,29.9-18.72,14.95,18.72,29.9,18.72,14.95-18.72,29.9-18.72"/>
+          </g>
+        </g>
+      </svg>
+      <a class='button-pom' href="#two" id="go">get started!</a>
      <!-- <button onclick="scrollSection2()">get started!</button> -->
     </section>
     <section id="two">
@@ -34,8 +43,10 @@
     <section id="three">
       <div class="container-two">
         <div class="container-two-box-one">
-                <img class="photo" src="images/pomseeds.png" alt="pomegranate seeds">
+          <div class="animatedParent" data-sequence="500">
+                <img class="animated bounceInUp" data-id="1" src="images/pomseeds.png" alt="pomegranate seeds">
         </div>
+      </div>
             <div class="container-two-box-two">
                 <p>
                   starts the process off as a seed - immediately after germination
