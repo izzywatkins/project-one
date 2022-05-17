@@ -10,32 +10,32 @@
   setTimeout(function () {
     element = document.getElementById('three')
     element.scrollIntoView()
-  }, 10000)
+  }, 80000)
   
   setTimeout(function () {
     element = document.getElementById('four')
     element.scrollIntoView()
-  }, 12000)
+  }, 10000)
 
   setTimeout(function () {
     element = document.getElementById('five')
     element.scrollIntoView()
-  }, 16000)
+  }, 14000)
 
   setTimeout(function () {
     element = document.getElementById('six')
     element.scrollIntoView()
-  }, 20000)
+  }, 18000)
 
   setTimeout(function () {
     element = document.getElementById('seven')
     element.scrollIntoView()
-  }, 24000)
+  }, 20000)
 
   setTimeout(function () {
     element = document.getElementById('eight')
     element.scrollIntoView()
-  }, 28000)
+  }, 24000)
 
   $( function() {
     $( "#draggable" ).draggable();
