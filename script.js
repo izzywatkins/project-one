@@ -6,7 +6,6 @@
    element.scrollIntoView()
   }, 6000) 
   
-  
   setTimeout(function () {
     element = document.getElementById('three')
     element.scrollIntoView()

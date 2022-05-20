@@ -16,9 +16,18 @@
     font-display: swap;
 }
 
+.pomegranate-page {
+    background-color: aqua;
+}
+
+.blueberry-page {
+    background-color: #EEF9FC;
+}
+
 main {
     overflow: hidden;
 }
+
 
 .homepage body {
     background-color: rgb(255, 255, 255);
@@ -30,6 +39,8 @@ main {
 
 html {
     scroll-behavior: smooth;
+    height: 100%;
+    width: 100%;
   }
 
 section {
@@ -38,62 +49,50 @@ section {
 }
 
   #one {
-    background-color: #FFEFEF;
+    margin: auto;
   }
 
   #two {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #FFEFEF;
   }
 
   #three {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #FFEFEF;
   }
 
   #four {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #FFEFEF;
   }
 
   #five {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #FFEFEF;
   }
 
   #six {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #FFEFEF;
   }
 
   #seven {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #FFEFEF;
   }
 
   #eight {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #FFEFEF;
   }
-
-.pomegranate-page body {
-    margin: 0;
-    background-color: lavenderblush;
-}
 
 nav {
     display: flex;
@@ -129,6 +128,16 @@ h1 {
     text-align: center;
     font-size: 160px;
     color: rgb(196, 21, 56);
+}
+
+.blueberry-page h1 {
+    font-family: 'Sporting Grotesque';
+    font-weight: bold;
+    font-style: normal;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 160px;
+    color: #3E51FF;
 }
 
 h2 {
@@ -236,6 +245,14 @@ p {
     font-style: normal;
     font-size: 50px;
     color: rgb(196, 21, 56);
+}
+
+.blueberry-page p {
+    font-family: 'Sporting Grotesque';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 50px;
+    color: #3E51FF;
 }
 
 .container-one {
@@ -416,7 +433,6 @@ svg .pom-line {
   }
 
 svg  {
-     margin-top: -20px;
      overflow: hidden;
      width: 1550px;
      right: 0;
@@ -426,53 +442,4 @@ svg  {
    to{
        stroke-dashoffset: 0;
    }
-}
-
-/******************
-* Bounce in down *
-*******************/
-
-@-webkit-keyframes bounceInDown { 
-    0% { 
-        opacity: 0; 
-        
-        -webkit-transform: translateY(-400px); 
-    } 
-    60% { 
-       
-        -webkit-transform: translateY(30px); 
-    } 
-    80% { 
-        -webkit-transform: translateY(-10px); 
-    } 
-    100% {
-        opacity: 1;
-         
-        -webkit-transform: translateY(0); 
-    } 
-} 
-
-@keyframes bounceInDown { 
-    0% { 
-        opacity: 0; 
-        
-        transform: translateY(-400px); 
-    } 
-    60% { 
-       
-        transform: translateY(30px); 
-    } 
-    80% { 
-        transform: translateY(-10px); 
-    } 
-    100% {
-        opacity: 1;
-         
-        transform: translateY(0); 
-    } 
-} 
-
-.bounceInDown.go { 
-    -webkit-animation-name: bounceInDown; 
-    animation-name: bounceInDown; 
 }
