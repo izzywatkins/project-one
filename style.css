@@ -149,6 +149,10 @@ h2 {
     justify-content: center;
 }
 
+h2:hover {
+    color: #3E51FF;
+}
+
 h4 {
     font-size: 30px;
 }
@@ -253,6 +257,31 @@ p {
     font-style: normal;
     font-size: 50px;
     color: #3E51FF;
+}
+
+.svg-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.svg-container-one {
+    display: flex;
+    order: 1;
+}
+
+.svg-container-one svg {
+    overflow: hidden;
+    margin: -160px;
+    width: 1700px;
+}
+
+.svg-container-two {
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-top: -560px;
+    display: flex;
+    order: 2;
 }
 
 .container-one {
@@ -363,3 +392,33 @@ svg  {
 #photo {
     width: 500px;
 }
+
+  .redline, .blueline, .greenline {
+    fill: none;
+    stroke-miterlimit: 10;
+    stroke-width: 6px;
+  }
+
+  .greenline {
+    stroke: #53d914;
+  }
+
+  .blueline {
+    stroke: #3e51ff;
+  }
+
+  .redline {
+    stroke: #c2111a;
+  }
+
+svg .redline, .greenline, .blueline {
+    fill: none;
+    stroke-miterlimit: 10;
+    stroke-width: 6px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 3000;
+    stroke-dashoffset: 3000;
+    animation: animate 5s linear infinite;
+    stroke-linecap: round;
+  }
