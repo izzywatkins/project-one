@@ -15,7 +15,8 @@
 }
 
 .pomegranate-page {
-  background-color: aqua;
+  background-color: #FFEFEF;
+  overflow-x: hidden;
 }
 
 .blueberry-page {
