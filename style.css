@@ -26,8 +26,10 @@ main {
   overflow: hidden;
 }
 
-.homepage body {
+.homepage {
   background-color: rgb(255, 255, 255);
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 * {
@@ -405,7 +407,7 @@ svg .pom-line {
 
 svg {
   overflow: hidden;
-  width: 1550px;
+  width: 1800px;
   right: 0;
 }
 
