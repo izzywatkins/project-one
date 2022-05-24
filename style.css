@@ -149,10 +149,6 @@ h2 {
   justify-content: center;
 }
 
-h2:hover {
-  color: #3e51ff;
-}
-
 h4 {
   font-size: 30px;
 }
@@ -263,9 +259,9 @@ h4 {
 }
 
 #start-btn:hover {
-  color: #c2111a;
+  color: rgb(196, 21, 56);
   background-color: #fff;
-  border: 2px solid #c2111a;
+  border-color: 2px solid rgb(196, 21, 56);
 }
 
 #start-btn:active {
@@ -282,7 +278,12 @@ h4 {
 .blueberry-page #start-btn:hover {
   color: #3e51ff;
   background-color: #fff;
-  color: #3e51ff;
+  border-color: #3e51ff;
+}
+
+.blueberry-page #start-btn:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
 }
 
 svg {
