@@ -274,15 +274,15 @@ h4 {
 }
 
 .blueberry-page #start-btn {
-  background-color: rgb(89, 0, 255);
+  background-color: #3e51ff;
   color: #fff;
   border: 2px solid #fff;
 }
 
 .blueberry-page #start-btn:hover {
-  color: rgb(89, 0, 255);
+  color: #3e51ff;
   background-color: #fff;
-  border: 2px solid rgb(89, 0, 255);
+  color: #3e51ff;
 }
 
 svg {
@@ -406,6 +406,19 @@ svg .pom-line {
   stroke-linecap: round;
 }
 
+svg .pom-line-blue {
+  fill: none;
+  stroke: #3e51ff;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 4px;
+  fill: none;
+  stroke-dasharray: 3000;
+  stroke-dashoffset: 3000;
+  animation: animate 5s linear infinite;
+  stroke-linecap: round;
+}
+
 svg {
   overflow: hidden;
   width: 1800px;
@@ -419,6 +432,11 @@ svg {
 }
 
 .wavy-line-red {
+  margin-top: -100px;
+  padding-bottom: 50px;
+}
+
+.wavy-line-blue {
   margin-top: -100px;
   padding-bottom: 50px;
 }
