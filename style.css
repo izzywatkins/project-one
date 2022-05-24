@@ -24,6 +24,10 @@
   background-color: #eef9fc;
 }
 
+.lime-page {
+  background-color: #FCFEE0;
+}
+
 main {
   overflow: hidden;
 }
@@ -141,6 +145,16 @@ h1 {
   color: #3e51ff;
 }
 
+.lime-page h1 {
+  font-family: 'Sporting Grotesque';
+  font-weight: bold;
+  font-style: normal;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 160px;
+  color: #52D913;
+}
+
 h2 {
   text-align: center;
   font-family: 'Sporting Grotesque';
@@ -182,7 +196,7 @@ h4 {
 }
 
 .links-lime:hover {
-  color: rgb(107, 242, 100);
+  color: 52D913;
 }
 
 .photo {
@@ -421,6 +435,19 @@ svg .pom-line-blue {
   stroke-linecap: round;
 }
 
+svg .pom-line-green {
+  fill: none;
+  stroke: #52D913;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 4px;
+  fill: none;
+  stroke-dasharray: 3000;
+  stroke-dashoffset: 3000;
+  animation: animate 5s linear infinite;
+  stroke-linecap: round;
+}
+
 svg {
   overflow: hidden;
   width: 1800px;
@@ -439,6 +466,11 @@ svg {
 }
 
 .wavy-line-blue {
+  margin-top: -100px;
+  padding-bottom: 50px;
+}
+
+.wavy-line-green {
   margin-top: -100px;
   padding-bottom: 50px;
 }
