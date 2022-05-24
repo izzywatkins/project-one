@@ -1,424 +1,459 @@
 @font-face {
-    font-family: 'Sporting Grotesque';
-    src: url('SportingGrotesque-Regular.woff2') format('woff2'),
-        url('SportingGrotesque-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Sporting Grotesque';
+  src: url('SportingGrotesque-Regular.woff2') format('woff2'), url('SportingGrotesque-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Sporting Grotesque';
-    src: url('SportingGrotesque-Bold.woff2') format('woff2'),
-        url('SportingGrotesque-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Sporting Grotesque';
+  src: url('SportingGrotesque-Bold.woff2') format('woff2'), url('SportingGrotesque-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 .pomegranate-page {
-    background-color: aqua;
+  background-color: aqua;
 }
 
 .blueberry-page {
-    background-color: #EEF9FC;
+  background-color: #eef9fc;
 }
 
 main {
-    overflow: hidden;
+  overflow: hidden;
 }
 
-
 .homepage body {
-    background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    scroll-behavior: smooth;
-    height: 100%;
-    width: 100%;
-  }
-
-section {
-    height: 100vh;
-    width: 100vw;
+  scroll-behavior: smooth;
+  height: 100%;
+  width: 100%;
 }
 
-  #one {
-    margin: auto;
-  }
+section {
+  height: 100vh;
+  width: 100vw;
+}
 
-  #two {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+#one {
+  margin: auto;
+}
 
-  #three {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+#two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
-  #four {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+#three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
-  #five {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+#four {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
-  #six {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+#five {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
-  #seven {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+#six {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
-  #eight {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+#seven {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#eight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 nav {
-    display: flex;
+  display: flex;
 }
 
 nav div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-   /* border: 2px rgb(255, 7, 7) solid; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 2px rgb(255, 7, 7) solid; */
 }
 
 .navigation-one {
-    flex: 1;
-    order: 2;
+  flex: 1;
+  order: 2;
 }
 
 .navigation-two {
-    flex: 1;
-    order: 2;
+  flex: 1;
+  order: 2;
 }
 
 .navigation-three {
-    flex: 1;
-    order: 3;
+  flex: 1;
+  order: 3;
 }
 
 h1 {
-    font-family: 'Sporting Grotesque';
-    font-weight: bold;
-    font-style: normal;
-    margin-top: 100px;
-    text-align: center;
-    font-size: 160px;
-    color: rgb(196, 21, 56);
+  font-family: 'Sporting Grotesque';
+  font-weight: bold;
+  font-style: normal;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 160px;
+  color: rgb(196, 21, 56);
 }
 
 .blueberry-page h1 {
-    font-family: 'Sporting Grotesque';
-    font-weight: bold;
-    font-style: normal;
-    margin-top: 100px;
-    text-align: center;
-    font-size: 160px;
-    color: #3E51FF;
+  font-family: 'Sporting Grotesque';
+  font-weight: bold;
+  font-style: normal;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 160px;
+  color: #3e51ff;
 }
 
 h2 {
-    text-align: center;
-    font-family: 'Sporting Grotesque';
-    font-weight: bold;
-    font-style: normal;
-    font-size: 150px;
-    justify-content: center;
+  text-align: center;
+  font-family: 'Sporting Grotesque';
+  font-weight: bold;
+  font-style: normal;
+  font-size: 150px;
+  justify-content: center;
 }
 
 h2:hover {
-    color: #3E51FF;
+  color: #3e51ff;
 }
 
 h4 {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .links {
-    font-family: 'Sporting Grotesque';
-    font-weight: normal;
-    font-style: normal;
-    text-decoration: none;
-    border-bottom: none;
+  font-family: 'Sporting Grotesque';
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  border-bottom: none;
 }
 
-.links-pom, .links-blueberry, .links-lime {
-    color: black;
-    font-family: 'Sporting Grotesque';
-    font-weight: normal;
-    font-style: normal;
-    text-decoration: none;
-    border-bottom: none;
+.links-pom,
+.links-blueberry,
+.links-lime {
+  color: black;
+  font-family: 'Sporting Grotesque';
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  border-bottom: none;
 }
 
 .links-pom:hover {
-    color: rgb(196, 21, 56);
+  color: rgb(196, 21, 56);
 }
 
 .links-blueberry:hover {
-    color: rgb(39, 37, 203);
+  color: rgb(39, 37, 203);
 }
 
 .links-lime:hover {
-    color:rgb(107, 242, 100)
+  color: rgb(107, 242, 100);
 }
 
 .photo {
-    width: 500px;
+  width: 500px;
 }
 
 .graphic-pom {
-    width: 800px;
-    margin-left: 700px;
-    margin-top: 50px;
+  width: 800px;
+  margin-left: 700px;
+  margin-top: 50px;
 }
 
 .graphic-pom-end {
-    max-width: 800px;
-    margin-left: 390px;
+  max-width: 800px;
+  margin-left: 390px;
 }
 
 #draggable {
-    padding: .5px;
+  padding: 0.5px;
 }
 
 .button-pom {
-    margin-left: 620px;
-    background-color: #fbeee0;
-    border: 2px solid #422800;
-    border-radius: 30px;
-    box-shadow: #422800 4px 4px 0 0;
-    color: #422800;
-    cursor: pointer;
-    display: inline-block;
-    font-family: 'Sporting Grotesque';
-    font-weight: normal;
-    font-style: normal;
-    font-size: 30px;
-    padding: 0 18px;
-    line-height: 50px;
-    text-align: center;
-    text-decoration: none;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
+  margin-left: 620px;
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Sporting Grotesque';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 30px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-pom:hover {
+  background-color: #fff;
+}
+
+.button-pom:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-pom {
+    min-width: 120px;
+    padding: 0 25px;
   }
-  
-  .button-pom:hover {
-    background-color: #fff;
-  }
-  
-  .button-pom:active {
-    box-shadow: #422800 2px 2px 0 0;
-    transform: translate(2px, 2px);
-  }
-  
-  @media (min-width: 768px) {
-    .button-pom {
-      min-width: 120px;
-      padding: 0 25px;
-    }
-  }
+}
 
 p {
-    font-family: 'Sporting Grotesque';
-    font-weight: normal;
-    font-style: normal;
-    font-size: 50px;
-    color: rgb(196, 21, 56);
+  font-family: 'Sporting Grotesque';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 50px;
+  color: rgb(196, 21, 56);
 }
 
 .blueberry-page p {
-    font-family: 'Sporting Grotesque';
-    font-weight: normal;
-    font-style: normal;
-    font-size: 50px;
-    color: #3E51FF;
+  font-family: 'Sporting Grotesque';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 50px;
+  color: #3e51ff;
 }
-
+h4 {
+  z-index: 1;
+}
+#start-btn {
+  z-index: 2;
+  display: inline-block;
+  background-color: #c2111a;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 10px 16px;
+  border-radius: 12px;
+  position: absolute;
+  top: 400px;
+  left: 40%;
+  text-decoration: none;
+}
+#start-btn:hover {
+  color: #c2111a;
+  background-color: #fff;
+  border: 2px solid #c2111a;
+}
+.blueberry-page #start-btn {
+  background-color: rgb(89, 0, 255);
+  color: #fff;
+  border: 2px solid #fff;
+}
+.blueberry-page #start-btn:hover {
+  color: rgb(89, 0, 255);
+  background-color: #fff;
+  border: 2px solid rgb(89, 0, 255);
+}
+svg {
+  z-index: -1;
+}
 .svg-container {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .svg-container-one {
-    display: flex;
-    order: 1;
+  display: flex;
+  order: 1;
 }
 
 .svg-container-one svg {
-    overflow: hidden;
-    margin: -160px;
-    width: 1700px;
+  overflow: hidden;
+  margin: -160px;
+  width: 1700px;
 }
 
 .svg-container-two {
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    margin-top: -560px;
-    display: flex;
-    order: 2;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  margin-top: -560px;
+  display: flex;
+  order: 2;
 }
 
 .container-one {
-    offset-position: 100px 0;
-    display: flex;
-    order: 1;
-    /* border: 2px solid red; */
+  offset-position: 100px 0;
+  display: flex;
+  order: 1;
+  /* border: 2px solid red; */
 }
 
 .container-one-box-one {
-    margin-left: 70px;
-    order: 1;
-    /* border: 2px solid red; */
+  margin-left: 70px;
+  order: 1;
+  /* border: 2px solid red; */
 }
 
 .container-one-box-two {
-    order: 2;
-    margin-left: 40px;
+  order: 2;
+  margin-left: 40px;
 }
 
 .container-two {
-    display: flex;
-    order: 1;
-    /* border: 2px solid red; */
+  display: flex;
+  order: 1;
+  /* border: 2px solid red; */
 }
 
 .container-two-box-one {
-    margin-left: 70px;
-    order: 1;
+  margin-left: 70px;
+  order: 1;
 }
 
 .container-two-box-two {
-    order: 2;
-    margin-left: 40px;
+  order: 2;
+  margin-left: 40px;
 }
 
 .container-three {
-    display: flex;
-    order: 1;
+  display: flex;
+  order: 1;
 }
 
 .container-three-box-one {
-    margin-left: 70px;
-    order: 1;
+  margin-left: 70px;
+  order: 1;
 }
 
 .container-three-box-two {
-    order: 2;
-    margin-left: 40px;
+  order: 2;
+  margin-left: 40px;
 }
 
 .container-four {
-    display: flex;
-    order: 1;
+  display: flex;
+  order: 1;
 }
 
 .container-four-box-one {
-    margin-left: 70px;
-    order: 1;
+  margin-left: 70px;
+  order: 1;
 }
 
 .container-four-box-two {
-    order: 2;
-    margin-left: 40px;
+  order: 2;
+  margin-left: 40px;
 }
 
 .container-five {
-    display: flex;
-    order: 1;
+  display: flex;
+  order: 1;
 }
 
 .container-five-box-one {
-    margin-left: 70px;
-    order: 1;
+  margin-left: 70px;
+  order: 1;
 }
 
 .container-five-box-two {
-    order: 2;
-    margin-left: 40px;
+  order: 2;
+  margin-left: 40px;
 }
 
-
 svg .pom-line {
-    fill: none;
-    stroke: rgb(196, 21, 56);
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-width: 4px;
-    fill: none;
-    stroke-dasharray: 3000;
-    stroke-dashoffset: 3000;
-    animation: animate 5s linear infinite;
-    stroke-linecap: round;
+  fill: none;
+  stroke: rgb(196, 21, 56);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 4px;
+  fill: none;
+  stroke-dasharray: 3000;
+  stroke-dashoffset: 3000;
+  animation: animate 5s linear infinite;
+  stroke-linecap: round;
+}
+
+svg {
+  overflow: hidden;
+  width: 1550px;
+  right: 0;
+}
+
+@keyframes animate {
+  to {
+    stroke-dashoffset: 0;
   }
-
-svg  {
-     overflow: hidden;
-     width: 1550px;
-     right: 0;
- }
-
-@keyframes animate{
-   to{
-       stroke-dashoffset: 0;
-   }
 }
 
 #photo {
-    width: 500px;
+  width: 500px;
 }
 
-  .redline, .blueline, .greenline {
-    fill: none;
-    stroke-miterlimit: 10;
-    stroke-width: 6px;
-  }
+.redline,
+.blueline,
+.greenline {
+  fill: none;
+  stroke-miterlimit: 10;
+  stroke-width: 6px;
+}
 
-  .greenline {
-    stroke: #53d914;
-  }
+.greenline {
+  stroke: #53d914;
+}
 
-  .blueline {
-    stroke: #3e51ff;
-  }
+.blueline {
+  stroke: #3e51ff;
+}
 
-  .redline {
-    stroke: #c2111a;
-  }
+.redline {
+  stroke: #c2111a;
+}
 
-svg .redline, .greenline, .blueline {
-    fill: none;
-    stroke-miterlimit: 10;
-    stroke-width: 10px;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-dasharray: 3000;
-    stroke-dashoffset: 3000;
-    animation: animate 5s linear infinite;
-    stroke-linecap: round;
-  }
+svg .redline,
+.greenline,
+.blueline {
+  fill: none;
+  stroke-miterlimit: 10;
+  stroke-width: 10px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 3000;
+  stroke-dashoffset: 3000;
+  animation: animate 5s linear infinite;
+  stroke-linecap: round;
+}
