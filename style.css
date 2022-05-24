@@ -414,7 +414,7 @@ svg  {
 svg .redline, .greenline, .blueline {
     fill: none;
     stroke-miterlimit: 10;
-    stroke-width: 6px;
+    stroke-width: 10px;
     stroke-linecap: round;
     stroke-linejoin: round;
     stroke-dasharray: 3000;
