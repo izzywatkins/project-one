@@ -204,37 +204,6 @@ h4 {
   padding: 0.5px;
 }
 
-.button-pom {
-  margin-left: 620px;
-  background-color: #fbeee0;
-  border: 2px solid #422800;
-  border-radius: 30px;
-  box-shadow: #422800 4px 4px 0 0;
-  color: #422800;
-  cursor: pointer;
-  display: inline-block;
-  font-family: 'Sporting Grotesque';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 30px;
-  padding: 0 18px;
-  line-height: 50px;
-  text-align: center;
-  text-decoration: none;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
-
-.button-pom:hover {
-  background-color: #fff;
-}
-
-.button-pom:active {
-  box-shadow: #422800 2px 2px 0 0;
-  transform: translate(2px, 2px);
-}
-
 @media (min-width: 768px) {
   .button-pom {
     min-width: 120px;
@@ -257,40 +226,66 @@ p {
   font-size: 50px;
   color: #3e51ff;
 }
+
 h4 {
   z-index: 1;
 }
+
 #start-btn {
-  z-index: 2;
+ /* z-index: 2;
+  position: absolute; */
+  margin-left: 630px;
   display: inline-block;
-  background-color: #c2111a;
-  color: #fff;
-  border: 2px solid #fff;
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
   padding: 10px 16px;
   border-radius: 12px;
-  position: absolute;
   top: 400px;
   left: 40%;
   text-decoration: none;
+  font-family: 'Sporting Grotesque';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 30px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }
+
 #start-btn:hover {
   color: #c2111a;
   background-color: #fff;
   border: 2px solid #c2111a;
 }
+
+#start-btn:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
 .blueberry-page #start-btn {
   background-color: rgb(89, 0, 255);
   color: #fff;
   border: 2px solid #fff;
 }
+
 .blueberry-page #start-btn:hover {
   color: rgb(89, 0, 255);
   background-color: #fff;
   border: 2px solid rgb(89, 0, 255);
 }
+
 svg {
   z-index: -1;
 }
+
 .svg-container {
   display: flex;
   flex-direction: column;
@@ -418,6 +413,11 @@ svg {
   to {
     stroke-dashoffset: 0;
   }
+}
+
+.wavy-line-red {
+  margin-top: -100px;
+  padding-bottom: 50px;
 }
 
 #photo {
