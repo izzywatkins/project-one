@@ -1,7 +1,7 @@
 //document.getElementById('one').scrollTo({ behavior: 'smooth', top: 0 })
 //$('#go').click(function () {
 
-$('#start-btn').click(function () {
+$('#start-btn').click (function () {
   setTimeout(function () {
     element = document.getElementById('two')
     element.scrollIntoView()
