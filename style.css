@@ -241,6 +241,14 @@ p {
   color: #3e51ff;
 }
 
+.lime-page p {
+  font-family: 'Sporting Grotesque';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 50px;
+  color: #52D913;
+}
+
 h4 {
   z-index: 1;
 }
