@@ -299,12 +299,29 @@ h4 {
 }
 
 .blueberry-page #start-btn:hover {
-  color: #3e51ff;
+  color: #52D913;;
   background-color: #fff;
-  border-color: #3e51ff;
+  border-color: #52D913;;
 }
 
 .blueberry-page #start-btn:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+.lime-page #start-btn {
+  background-color: #52D913;;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.lime-page #start-btn:hover {
+  color: #52D913;;
+  background-color: #fff;
+  border-color: #52D913;;
+}
+
+.lime-page #start-btn:active {
   box-shadow: #422800 2px 2px 0 0;
   transform: translate(2px, 2px);
 }
