@@ -28,6 +28,11 @@
   background-color: #FCFEE0;
 }
 
+.lime-page html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 main {
   overflow: hidden;
 }
@@ -290,6 +295,40 @@ h4 {
   transform: translate(2px, 2px);
 }
 
+.blueberry-page #loop-btn {
+  background-color: #3e51ff;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.blueberry-page #loop-btn:hover {
+  color: #3e51ff;
+  background-color: #fff;
+  border-color: #3e51ff;
+}
+
+.blueberry-page #loop-btn:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+.lime-page #loop-btn {
+  background-color: #52D913;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.lime-page #loop-btn:hover {
+  color: #52D913;
+  background-color: #fff;
+  border-color: #52D913;
+}
+
+.lime-page #loop-btn:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
 #start-btn {
  /* z-index: 2;
   position: absolute; */
@@ -336,9 +375,9 @@ h4 {
 }
 
 .blueberry-page #start-btn:hover {
-  color: #3e51ff;;
+  color: #3e51ff;
   background-color: #fff;
-  border-color: #3e51ff;;
+  border-color: #3e51ff;
 }
 
 .blueberry-page #start-btn:active {
@@ -347,15 +386,15 @@ h4 {
 }
 
 .lime-page #start-btn {
-  background-color: #52D913;;
+  background-color: #52D913;
   color: #fff;
   border: 2px solid #fff;
 }
 
 .lime-page #start-btn:hover {
-  color: #52D913;;
+  color: #52D913;
   background-color: #fff;
-  border-color: #52D913;;
+  border-color: #52D913;
 }
 
 .lime-page #start-btn:active {
@@ -400,14 +439,14 @@ svg {
 }
 
 .container-one-box-one {
-  margin-left: 70px;
+  margin-left: 200px;
   order: 1;
-  /* border: 2px solid red; */
 }
 
 .container-one-box-two {
   order: 2;
   margin-left: 40px;
+  margin-top: 60px;
 }
 
 .container-two {
@@ -417,13 +456,14 @@ svg {
 }
 
 .container-two-box-one {
-  margin-left: 70px;
+  margin-left: 200px;
   order: 1;
 }
 
 .container-two-box-two {
   order: 2;
   margin-left: 40px;
+  margin-top: 60px;
 }
 
 .container-three {
@@ -432,13 +472,14 @@ svg {
 }
 
 .container-three-box-one {
-  margin-left: 70px;
+  margin-left: 200px;
   order: 1;
 }
 
 .container-three-box-two {
   order: 2;
   margin-left: 40px;
+  margin-top: 60px;
 }
 
 .container-four {
@@ -447,13 +488,14 @@ svg {
 }
 
 .container-four-box-one {
-  margin-left: 70px;
+  margin-left: 200px;
   order: 1;
 }
 
 .container-four-box-two {
   order: 2;
   margin-left: 40px;
+  margin-top: 60px;
 }
 
 .container-five {
@@ -462,13 +504,14 @@ svg {
 }
 
 .container-five-box-one {
-  margin-left: 70px;
+  margin-left: 200px;
   order: 1;
 }
 
 .container-five-box-two {
   order: 2;
   margin-left: 40px;
+  margin-top: 60px;
 }
 
 svg .pom-line {
