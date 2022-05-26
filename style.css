@@ -617,3 +617,16 @@ svg .redline,
   animation: animate 5s linear infinite;
   stroke-linecap: round;
 }
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+  width: 500px;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
