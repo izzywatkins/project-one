@@ -14,6 +14,10 @@
   font-display: swap;
 }
 
+svg .pomegranate-page, .blueberry-page, .lime-page {
+  overflow-x: hidden;
+}
+
 .pomegranate-page {
   background-color: #FFEFEF;
   max-width: 100%;
@@ -60,6 +64,7 @@ section {
 
 #one {
   margin: auto;
+  overflow: hidden;
 }
 
 #two {
@@ -262,10 +267,10 @@ h4 {
   margin-left: 630px;
   display: inline-block;
   background-color: #fbeee0;
-  border: 2px solid #422800;
+  border: 2px solid #62031f;
   border-radius: 30px;
-  box-shadow: #422800 4px 4px 0 0;
-  color: #422800;
+  box-shadow: #62031f 4px 4px 0 0;
+  color: black;
   cursor: pointer;
   padding: 10px 16px;
   border-radius: 12px;
@@ -291,7 +296,7 @@ h4 {
 }
 
 #loop-btn:active {
-  box-shadow: #422800 2px 2px 0 0;
+  box-shadow: #62031f 2px 2px 0 0;
   transform: translate(2px, 2px);
 }
 
@@ -335,10 +340,10 @@ h4 {
   margin-left: 630px;
   display: inline-block;
   background-color: #fbeee0;
-  border: 2px solid #422800;
+  border: 2px solid #62031f;
   border-radius: 30px;
-  box-shadow: #422800 4px 4px 0 0;
-  color: #422800;
+  box-shadow: #62031f 4px 4px 0 0;
+  color: #000000;
   cursor: pointer;
   padding: 10px 16px;
   border-radius: 12px;
@@ -364,7 +369,7 @@ h4 {
 }
 
 #start-btn:active {
-  box-shadow: #422800 2px 2px 0 0;
+  box-shadow: #62031f 2px 2px 0 0;
   transform: translate(2px, 2px);
 }
 
@@ -381,7 +386,7 @@ h4 {
 }
 
 .blueberry-page #start-btn:active {
-  box-shadow: #422800 2px 2px 0 0;
+  box-shadow: #26498d 2px 2px 0 0;
   transform: translate(2px, 2px);
 }
 
@@ -398,7 +403,7 @@ h4 {
 }
 
 .lime-page #start-btn:active {
-  box-shadow: #422800 2px 2px 0 0;
+  box-shadow: #174200 2px 2px 0 0;
   transform: translate(2px, 2px);
 }
 
