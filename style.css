@@ -425,7 +425,6 @@ svg {
 }
 
 .svg-container-one svg {
-  margin-top: -50px;
   margin: -100px;
   width: 1800px;
 }
@@ -615,9 +614,10 @@ svg {
 svg .redline,
 .greenline,
 .blueline {
+  margin-top: -20px;
   fill: none;
   stroke-miterlimit: 10;
-  stroke-width: 10px;
+  stroke-width: 15px;
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-dasharray: 3000;
